@@ -4,8 +4,8 @@
 class HomebrewBluebantha < Formula
   desc "A simple daemon to turn off bluetooth when a Macbook's lid is closed."
   homepage "https://github.com/banthaherder/homebrew-bluebantha"
-  url "https://github.com/banthaherder/homebrew-bluebantha/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "3e61f5d95434f152a5e3fd1f07138ee28602b282360abab5bf71533066dde5a0"
+  url "https://github.com/banthaherder/homebrew-bluebantha/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "bff361f377a45838d73ce153f5f7a824aaf02a3864c6ea61554fa84c76968739"
   license "MIT"
 
   depends_on "jq"
