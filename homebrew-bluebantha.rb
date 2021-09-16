@@ -15,8 +15,11 @@ class HomebrewBluebantha < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "make install"
+    #system "make install"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    bin.install "./src/bluebantha.sh"
+    prefix.install_symlink "com.banthabot.bluebantha.plist" => "#{plist_name}.plist"
+    system "brew services start"
   end
 
   test do

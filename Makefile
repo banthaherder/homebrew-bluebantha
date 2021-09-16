@@ -18,6 +18,7 @@ install-daemon:
 	@echo "Install complete!"
 
 reinstall-script: install-script
+
 reinstall-daemon:
 	@echo "Cleaning daemon..."
 	@launchctl unload /Library/LaunchDaemons/com.banthabot.bluebantha.plist
