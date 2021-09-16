@@ -1,4 +1,4 @@
-install: install-deps install-script install-daemon
+install: install-script install-daemon
 
 reinstall: reinstall-script reinstall-daemon
 
