@@ -4,13 +4,13 @@
     <dict>
         <key>Label</key>
 	<string>com.banthabot.bluebantha</string>
-	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.utilities</string>
         <key>Program</key>
 	<string>/usr/local/bin/bluebantha.sh</string>
 	<key>RunAtLoad</key>
 	<true/>
-	<key>LSBackgroundOnly</key>
-	<true/>
+	<key>StandardOutPath</key>
+	<string>/Library/Logs/bluebantha.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Library/Logs/bluebantha_err.log</string>
     </dict>
 </plist>
