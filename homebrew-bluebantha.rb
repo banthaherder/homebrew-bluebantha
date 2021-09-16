@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class HomebrewBluebantha < Formula
   desc "A simple daemon to turn off bluetooth when a Macbook's lid is closed."
-  homepage ""
+  homepage "https://github.com/banthaherder/homebrew-bluebantha"
   url "https://github.com/banthaherder/homebrew-bluebantha/archive/refs/tags/v0.0.1.tar.gz"
   sha256 "3e61f5d95434f152a5e3fd1f07138ee28602b282360abab5bf71533066dde5a0"
   license "MIT"
