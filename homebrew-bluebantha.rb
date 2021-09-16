@@ -17,9 +17,11 @@ class HomebrewBluebantha < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     #system "make install"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    bin.install "./src/bluebantha.sh"
+    bin.install Dir["src"]
+    prefix.install "com.banthabot.bluebantha.plist"
+
     prefix.install_symlink "com.banthabot.bluebantha.plist" => "#{plist_name}.plist"
-    system "brew services start"
+    #system "brew services start #{plist_name} --file=#{plist_path}"
   end
 
   test do
